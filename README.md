@@ -1,1 +1,1 @@
-# laravel-customize-shares
+# Customize your Laravel social sharing icons & designs.

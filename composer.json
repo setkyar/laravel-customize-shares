@@ -1,0 +1,11 @@
+{
+    "name": "setkyar/laravel-customize-shares",
+    "description": "Customize social sharing icons & design.",
+    "authors": [
+        {
+            "name": "Set Kyar Wa Lar",
+            "email": "setkyar16@gmail.com"
+        }
+    ],
+    "require": {}
+}
