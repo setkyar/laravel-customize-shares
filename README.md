@@ -10,7 +10,12 @@ Pull package through Composer. Run
 
 ## Usage
 
-Add the following 
+Add service provider within `config/app.php`
+
+    'providers' => [
+       SetKyar\CustomShares\CustomSharesProvider::class,
+    ];
+
 	
 Run the following command for configuration
 
@@ -22,15 +27,14 @@ Run the following command for views
 
 ## Contributing
 
-1.Fork it
-2.Create your feature branch (git checkout -b my-new-feature)
-3.Commit your changes (git commit -am 'Added some feature')
-4.Push to the branch (git push origin my-new-feature)
-5.Create new Pull Request
+ 1. Fork it
+ 2. Create your feature branch (git checkout -b my-new-feature)
+ 3. Commit your changes (git commit -am 'Added some feature')
+ 4. Push to the branch (git push origin my-new-feature)
+ 5. Create new Pull Request
 
 ## Security
 
 If you discover any security related issues, please email setkyar16@gmail.com com instead of using the issue tracker.
 
 ## Credits
-
