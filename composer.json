@@ -1,11 +1,26 @@
 {
     "name": "setkyar/laravel-customize-shares",
     "description": "Customize social sharing icons & design.",
+    "keywords": [
+        "setkyar",
+        "CustomShare",
+        "customize"
+    ],
+    "homepage": "https://github.com/setkyar/laravel-social-share-cards",
+    "license": "MIT",
     "authors": [
         {
             "name": "Set Kyar Wa Lar",
             "email": "setkyar16@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+    	"php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SetKyar\\CustomShares\\": "src"
+        }
+    },
+    "minimum-stability": "stable"
 }
