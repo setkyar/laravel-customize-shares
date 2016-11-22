@@ -19,11 +19,11 @@ Add service provider within `config/app.php`
 	
 Run the following command for configuration
 
-	php artisan vendor:publish --tag=config
+	php artisan vendor:publish --provider="SetKyar\CustomShares\CustomSharesProvider" --tag="config"
 
 Run the following command for views
-
-	php artisan vendor:publish --tag=views
+	
+	php artisan vendor:publish --provider="SetKyar\CustomShares\CustomSharesProvider" --tag="views"
 
 ## Contributing
 

@@ -13,8 +13,12 @@ class CustomSharesProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__.'/views', 'share');
-
+        if (file_exists(resource_path('views/vendor/customize-share'))) {
+            $this->loadViewsFrom(resource_path('views/vendor/customize-share'), 'share');    
+        } else {
+            $this->loadViewsFrom(__DIR__ . '/views', 'share');
+        }
+        
         $this->publishes([
             __DIR__.'/config/shares-config.php' => config_path('shares-config.php')
         ], 'config');
@@ -31,6 +35,6 @@ class CustomSharesProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        
     }
 }
